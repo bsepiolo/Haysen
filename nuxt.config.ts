@@ -6,5 +6,5 @@ export default defineNuxtConfig({
     typeCheck: true,
   },
 
-  modules: ["@nuxt/eslint"]
+  modules: ["@nuxt/eslint"],
 });
