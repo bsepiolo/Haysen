@@ -24,9 +24,9 @@ withDefaults(defineProps<TextBoxProps>(), {
 })
 
 const textBoxSizeClass: Record<TextBoxSize, string> = {
-  sm: 'text-box__small',
-  md: 'text-box__medium',
-  lg: 'text-box__large'
+  sm: 'text-box--small',
+  md: 'text-box--medium',
+  lg: 'text-box--large'
 }
 
 const model = defineModel<string | number>()
@@ -36,7 +36,7 @@ const model = defineModel<string | number>()
   background: $gray-200;
   border-radius: 8px;
 
-  &__large {
+  &--large {
     height: 56px;
   }
 
