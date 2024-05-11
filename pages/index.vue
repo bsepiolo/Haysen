@@ -1,8 +1,6 @@
 <template>
   <div class="test">
     <div class="test__title">
-      test
-
       <TextBox name="test" type="1" placeholder="test" />
     </div>
   </div>
