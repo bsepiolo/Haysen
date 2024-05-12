@@ -12,8 +12,9 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 type TextBoxSize = 'sm' | 'md' | 'lg'
+type HTMLInputElementType = 'text' | 'password' | 'number' | 'email'
 interface TextBoxProps {
-  type: string
+  type: HTMLInputElementType
   name: string
   placeholder: string
   size?: TextBoxSize
@@ -38,7 +39,11 @@ const model = defineModel<string | number>()
 
   &--large {
     height: 56px;
-    @include font-size(24px);
+
+    .text-box__input {
+      @include font-size(24px);
+      font-weight: 600;
+    }
   }
 
   &__input {

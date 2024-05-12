@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <TextBox v-model="testValue" name="test" type="1" placeholder="test" />
+    <TextBox v-model="testValue" name="0" type="number" placeholder="0" />
   </div>
 </template>
 <script setup lang="ts">
