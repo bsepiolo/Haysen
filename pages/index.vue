@@ -2,7 +2,7 @@
   <div class="container">
     <TextBox
       v-model="testValue"
-      name="0"
+      :name="$t('test')"
       type="number"
       placeholder="0"
       append-text="zł"

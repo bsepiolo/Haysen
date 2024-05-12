@@ -1,0 +1,16 @@
+{
+  "COST_OF_PURCHASE_BY_COMPANY": "Koszt zakupu na firmę",
+  "GROSS_AMOUNT": "Kwota brutto",
+  "VAT_RATE": "Stawka VAT",
+  "FORM_OF_TAXATION": "Forma opodatkowania",
+  "COST": "Koszt",
+  "SAVING": "Oszczędność",
+  "VAT": "VAT",
+  "TAX": "PODATEK",
+  "HEALTH_CARE_CONTRIBUTION": "Składka zdrowotna",
+  "GENERAL_RULES": "Zasady ogólne",
+  "LINEAR_TAX": "Podatek liniowy",
+  "FIRST_TRESHOLD": "Pierwszy próg",
+  "SECOND_TRESHOLD": "Drugi próg",
+  "PLN_CURRENCY": "zł"
+}

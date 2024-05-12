@@ -1,0 +1,16 @@
+{
+  "COST_OF_PURCHASE_BY_COMPANY": "Cost of purchase for the company",
+  "GROSS_AMOUNT": "Gross amount",
+  "VAT_RATE": "VAT rate",
+  "FORM_OF_TAXATION": "Form of taxation",
+  "COST": "Cost",
+  "SAVING": "Saving",
+  "VAT": "VAT",
+  "TAX": "Tax",
+  "HEALTH_CARE_CONTRIBUTION": "Healthcare contribution",
+  "GENERAL_RULES": "General rules",
+  "LINEAR_TAX": "Linear tax",
+  "FIRST_TRESHOLD": "First threshold",
+  "SECOND_TRESHOLD": "Second threshold",
+  "PLN_CURRENCY": "PLN"
+}
