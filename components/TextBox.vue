@@ -38,6 +38,7 @@ const model = defineModel<string | number>()
 
   &--large {
     height: 56px;
+    @include font-size(24px);
   }
 
   &__input {
