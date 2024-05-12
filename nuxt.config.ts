@@ -6,13 +6,19 @@ export default defineNuxtConfig({
     typeCheck: true
   },
 
-  modules: ['@nuxt/eslint'],
+  modules: ['@nuxt/eslint', '@nuxtjs/google-fonts'],
+  googleFonts: {
+    families: {
+      Poppins: ['500', '600', '700']
+    }
+  },
+  css: ['@/assets/scss/global.scss'],
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
           additionalData: `@use 'sass:math';
-          @import "@/assets/scss/main.scss";`
+          @import "@/assets/scss/config.scss";`
         }
       }
     }
