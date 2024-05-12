@@ -1,6 +1,12 @@
 <template>
   <div class="container">
-    <TextBox v-model="testValue" name="0" type="number" placeholder="0" />
+    <TextBox
+      v-model="testValue"
+      name="0"
+      type="number"
+      placeholder="0"
+      append-text="zł"
+    />
   </div>
 </template>
 <script setup lang="ts">
