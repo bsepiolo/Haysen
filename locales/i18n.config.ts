@@ -2,7 +2,7 @@ export default {
   lazy: false,
   legacy: false,
   langDir: 'locales',
-  defaultLocale: 'en',
+  defaultLocale: 'pl',
   locales: [
     {
       code: 'en',
